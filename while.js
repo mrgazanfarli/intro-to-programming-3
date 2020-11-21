@@ -12,10 +12,10 @@ function getDigitCountOf(number) {
         number = (number - number % 10) / 10;
         count++;
     }
-
+    
     return count;
 }
 
-const digitsCount = getDigitCountOf(1243);
+const digitsCount = getDigitCountOf(3);
 
 console.log(digitsCount);
