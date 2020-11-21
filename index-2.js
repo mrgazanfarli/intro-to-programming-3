@@ -14,3 +14,5 @@ const numbers = [1, 2, 3, 4, 5, 6];
 const reversedNumbers = reverseArray(numbers);
 
 console.log(reversedNumbers);
+
+// code added by Aisha
