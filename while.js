@@ -5,20 +5,20 @@
 
 console.clear();
 
-// function getDigitCountOf(number) {
-//     let count = 0;
+function getDigitCountOf(number) {
+    let count = 0;
 
-//     while(number !== 0) {
-//         number = (number - number % 10) / 10;
-//         count++;
-//     }
+    while(number !== 0) {
+        number = (number - number % 10) / 10;
+        count++;
+    }
 
-//     return count;
-// }
+    return count;
+}
 
-// const digitsCount = getDigitCountOf(3);
+const digitsCount = getDigitCountOf(3);
 
-// console.log(digitsCount);
+console.log(digitsCount);
 
 // Get the number of prime numbers
 
