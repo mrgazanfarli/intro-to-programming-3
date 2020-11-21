@@ -39,7 +39,7 @@ function isPrime(number) {
     return true;
 }
 
-function getNumberOfPrimeNumbers(lowerBound, higherBound = 100) {
+function getPrimeNumbersWithIn(lowerBound, higherBound = 100) {
     let result = [];
 
     if (lowerBound <= 1) {
@@ -55,4 +55,4 @@ function getNumberOfPrimeNumbers(lowerBound, higherBound = 100) {
     return result;
 }
 
-console.log(getNumberOfPrimeNumbers(1, 20));
+console.log(getPrimeNumbersWithIn(1, 20));
