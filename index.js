@@ -46,3 +46,6 @@ function getSumOf(lowerBound, higherBound) {
 const sum = getSumOf(1, 4);
 
 console.log(sum);
+
+// code added by Jafar
+// I changed a function
