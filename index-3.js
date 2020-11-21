@@ -4,14 +4,13 @@ console.clear();
 
 const words = ['index', 'output', 'file', 'folder', 'terminal', 'open', 'editor', 'code', 'while'];
 
-function getWordsWithLengthOf(arrayOfWords, length) {
+function getWordsWithLengthOf(arrayOfWords, requiredLength) {
     const results = [];
 
     for (let i = 0; i < arrayOfWords.length; i++) {
-        console.log(i);
         const currentWord = arrayOfWords[i];
 
-        if (currentWord.length === length) {
+        if (currentWord.length === requiredLength) {
             results.push(currentWord);
         }
     }
